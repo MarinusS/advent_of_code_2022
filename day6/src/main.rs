@@ -48,47 +48,20 @@ mod tests {
 
     #[test]
     fn test_get_answer_a() {
-        assert_eq!(
-            get_answer_a("bvwbjplbgvbhsrlpgdmjqwftvncz"),
-            Some(5)
-        );
+        assert_eq!(get_answer_a("bvwbjplbgvbhsrlpgdmjqwftvncz"), Some(5));
 
-        assert_eq!(
-            get_answer_a("nppdvjthqldpwncqszvftbrmjlhg"),
-            Some(6)
-        );
-        assert_eq!(
-            get_answer_a("nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg"),
-            Some(10)
-        );
-        assert_eq!(
-            get_answer_a("zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw"),
-            Some(11)
-        );
+        assert_eq!(get_answer_a("nppdvjthqldpwncqszvftbrmjlhg"), Some(6));
+        assert_eq!(get_answer_a("nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg"), Some(10));
+        assert_eq!(get_answer_a("zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw"), Some(11));
     }
 
     #[test]
     fn test_get_answer_b() {
-        assert_eq!(
-            get_answer_b("mjqjpqmgbljsphdztnvjfqwrcgsmlb"),
-            Some(19)
-        );
+        assert_eq!(get_answer_b("mjqjpqmgbljsphdztnvjfqwrcgsmlb"), Some(19));
 
-        assert_eq!(
-            get_answer_b("bvwbjplbgvbhsrlpgdmjqwftvncz"),
-            Some(23)
-        );
-        assert_eq!(
-            get_answer_b("nppdvjthqldpwncqszvftbrmjlhg"),
-            Some(23)
-        );
-        assert_eq!(
-            get_answer_b("nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg"),
-            Some(29)
-        );
-        assert_eq!(
-            get_answer_b("zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw"),
-            Some(26)
-        );
+        assert_eq!(get_answer_b("bvwbjplbgvbhsrlpgdmjqwftvncz"), Some(23));
+        assert_eq!(get_answer_b("nppdvjthqldpwncqszvftbrmjlhg"), Some(23));
+        assert_eq!(get_answer_b("nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg"), Some(29));
+        assert_eq!(get_answer_b("zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw"), Some(26));
     }
 }
